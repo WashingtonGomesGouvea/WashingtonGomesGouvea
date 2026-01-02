@@ -323,6 +323,27 @@ Machine Learning  ██████████████░░░░░░�
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=WashingtonGomesGouvea&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&area_color=00D4FF" width="100%"/>
 
+#### 📆 Contribuições por Mês | Monthly Contributions
+
+<table>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/Jan-2-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Fev-3-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Mar-1-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Abr-2-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Mai-1-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Jun-4-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/Jul-5-1a1a2e?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Ago-10-00D4FF?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Set-15-00D4FF?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Out-25-00D4FF?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Nov-30-00D4FF?style=flat-square&labelColor=0D1117"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Dez-35-00D4FF?style=flat-square&labelColor=0D1117"/></td>
+</tr>
+</table>
+
 <a href="https://github.com/WashingtonGomesGouvea">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WashingtonGomesGouvea&theme=tokyonight" height="180"/>
 </a>
