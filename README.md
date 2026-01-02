@@ -319,6 +319,17 @@ Machine Learning  ██████████████░░░░░░�
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=WashingtonGomesGouvea&theme=tokyonight&utcOffset=-3" height="180"/>
 </a>
 
+### 📅 Contribuições 2025 | 2025 Contributions
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=WashingtonGomesGouvea&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&area_color=00D4FF" width="100%"/>
+
+<a href="https://github.com/WashingtonGomesGouvea">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WashingtonGomesGouvea&theme=tokyonight" height="180"/>
+</a>
+<a href="https://github.com/WashingtonGomesGouvea">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WashingtonGomesGouvea&theme=tokyonight" height="180"/>
+</a>
+
 </div>
 
 ---
