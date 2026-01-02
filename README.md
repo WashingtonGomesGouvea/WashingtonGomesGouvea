@@ -307,10 +307,17 @@ Machine Learning  ██████████████░░░░░░�
 # 📊 &nbsp;GitHub Stats
 
 <div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=WashingtonGomesGouvea&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF" height="180"/>
 
-<img src="https://streak-stats.demolab.com?user=WashingtonGomesGouvea&theme=tokyonight&hide_border=true&background=0D1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" height="180"/>
+<a href="https://github.com/WashingtonGomesGouvea">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WashingtonGomesGouvea&theme=tokyonight" width="100%"/>
+</a>
+
+<a href="https://github.com/WashingtonGomesGouvea">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=WashingtonGomesGouvea&theme=tokyonight" height="180"/>
+</a>
+<a href="https://github.com/WashingtonGomesGouvea">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=WashingtonGomesGouvea&theme=tokyonight&utcOffset=-3" height="180"/>
+</a>
 
 </div>
 
