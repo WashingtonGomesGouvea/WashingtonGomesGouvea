@@ -308,7 +308,9 @@ Machine Learning  ██████████████░░░░░░�
 
 <div align="center">
   
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=WashingtonGomesGouvea&theme=tokyonight&hide_border=true&background=0D1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF)](https://git.io/streak-stats)
+<img src="https://github-readme-stats.vercel.app/api?username=WashingtonGomesGouvea&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF" height="180"/>
+
+<img src="https://streak-stats.demolab.com?user=WashingtonGomesGouvea&theme=tokyonight&hide_border=true&background=0D1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF" height="180"/>
 
 </div>
 
