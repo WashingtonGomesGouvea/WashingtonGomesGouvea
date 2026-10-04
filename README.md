@@ -7,7 +7,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d9488,100:00d4ff&height=200&section=header&text=Washington%20Gomes&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Coordenador%20de%20Business%20Intelligence&descSize=20&descAlignY=55"/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=600&lines=Especialista+em+transformar+dados+em+insights;Data+Specialist+transforming+data+into+insights;%2B4+anos+de+experi%C3%AAncia+em+BI;%2B4+years+of+experience+in+BI;Power+BI+%7C+Python+%7C+SQL+%7C+DAX" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=600&lines=Especialista+em+transformar+dados+em+insights;Data+Specialist+transforming+data+into+insights;%2B5+anos+de+experi%C3%AAncia+em+dados;%2B5+years+of+experience+in+data;Data+Lake+%7C+BigQuery+%7C+Medallion;Power+BI+%7C+Python+%7C+SQL+%7C+DAX" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -38,7 +38,7 @@ Sou um profissional apaixonado por **dados** e **tecnologia**, com experiência 
 🎓 **Formado em Análise e Desenvolvimento de Sistemas**  
 📍 **Caraguatatuba, São Paulo - Brasil**
 
-Na **Synvia**, onde atuo há mais de **4 anos**, desenvolvo soluções analíticas com **SQL**, **DAX** e **Power BI** que orientam decisões críticas de negócios.
+Na **Synvia**, onde atuo há mais de **5 anos**, desenvolvo soluções analíticas com **SQL**, **DAX** e **Power BI** que orientam decisões críticas de negócios. Em **2026**, coordeno a construção do **Data Lake corporativo** em **BigQuery** e **Google Cloud Storage**.
 
 <br clear="both"/>
 
@@ -60,6 +60,9 @@ timeline
     2025 : Coordenador de BI
          : Liderança de projetos de BI
          : Coordenação de equipe de dados
+    2026 : Data Lake corporativo
+         : Arquitetura medallion no BigQuery + GCS
+         : Ingestão com CDC e governança desde o desenho
 ```
 
 ---
@@ -84,6 +87,16 @@ timeline
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+</p>
+
+### ☁️ Engenharia de Dados & Cloud
+<p>
+<img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloud_Storage-4285F4?style=for-the-badge&logo=googlecloudstorage&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Datastream_CDC-34A853?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white"/>
+<img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
 </p>
 
 ### 🗄️ Banco de Dados
@@ -116,6 +129,31 @@ Tableau           █████████████████░░░�
 Python            █████████████████░░░░░░░░   85%
 Machine Learning  ██████████████░░░░░░░░░░░   70%
 ```
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Building%20Construction.png" alt="Construction" width="35" /> &nbsp;2026: Data Lake Corporativo
+
+> Uma base para confiar no dado.
+
+Os dados da empresa estavam espalhados em bancos operacionais, APIs e planilhas, e cada relatório refazia a própria extração. Em 2026 coordeno a iniciativa do **Data Lake corporativo** e as decisões de arquitetura, em diálogo com a diretoria.
+
+```mermaid
+flowchart LR
+    A[APIs / bancos operacionais<br/>MongoDB / planilhas] -->|CDC incremental| B[(Bronze<br/>dado bruto)]
+    B --> C[(Silver<br/>limpo e padronizado)]
+    C --> D[(Gold<br/>modelos de negócio)]
+    D --> E[BI / análises / IA]
+```
+
+| Decisão | Por quê |
+|---------|---------|
+| Arquitetura **medallion** (bronze, silver, gold) em **BigQuery** e **GCS** | Separar o dado bruto do dado confiável |
+| Ingestão incremental com **CDC** nas fontes transacionais | Evitar cargas completas e manter o lake atualizado |
+| **Governança desde o desenho**: dono, dicionário e rastreabilidade por tabela | Saber a origem de cada número |
+| Integrações **MCP** para explorar fontes com IA | Apoiar decisões de arquitetura com dados reais |
+
+**Resultado esperado:** uma base única para BI e análises, com a origem de cada número rastreável.
 
 ---
 
@@ -177,7 +215,7 @@ I'm a professional passionate about **data** and **technology**, with experience
 🎓 **Bachelor's in Systems Analysis and Development**  
 📍 **Caraguatatuba, São Paulo - Brazil**
 
-At **Synvia**, where I've been working for over **4 years**, I develop analytical solutions with **SQL**, **DAX**, and **Power BI** that guide critical business decisions.
+At **Synvia**, where I've been working for over **5 years**, I develop analytical solutions with **SQL**, **DAX**, and **Power BI** that guide critical business decisions. In **2026**, I'm coordinating the build of the **corporate Data Lake** on **BigQuery** and **Google Cloud Storage**.
 
 <br clear="both"/>
 
@@ -199,6 +237,9 @@ timeline
     2025 : BI Coordinator
          : BI project leadership
          : Data team coordination
+    2026 : Corporate Data Lake
+         : Medallion architecture on BigQuery + GCS
+         : CDC ingestion and governance by design
 ```
 
 ---
@@ -223,6 +264,16 @@ timeline
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+</p>
+
+### ☁️ Data Engineering & Cloud
+<p>
+<img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloud_Storage-4285F4?style=for-the-badge&logo=googlecloudstorage&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Datastream_CDC-34A853?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white"/>
+<img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
 </p>
 
 ### 🗄️ Databases
@@ -255,6 +306,31 @@ Tableau           █████████████████░░░�
 Python            █████████████████░░░░░░░░   85%
 Machine Learning  ██████████████░░░░░░░░░░░   70%
 ```
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Building%20Construction.png" alt="Construction" width="35" /> &nbsp;2026: Corporate Data Lake
+
+> A foundation for trusted data.
+
+Company data was scattered across operational databases, APIs and spreadsheets, and every report rebuilt its own extraction. In 2026 I'm coordinating the **corporate Data Lake** initiative and its architecture decisions, in collaboration with executives.
+
+```mermaid
+flowchart LR
+    A[APIs / operational DBs<br/>MongoDB / spreadsheets] -->|incremental CDC| B[(Bronze<br/>raw data)]
+    B --> C[(Silver<br/>cleaned and standardized)]
+    C --> D[(Gold<br/>business models)]
+    D --> E[BI / analytics / AI]
+```
+
+| Decision | Why |
+|----------|-----|
+| **Medallion** architecture (bronze, silver, gold) on **BigQuery** and **GCS** | Separate raw data from trusted data |
+| Incremental ingestion with **CDC** on transactional sources | Avoid full loads and keep the lake current |
+| **Governance by design**: an owner, a dictionary and traceability for every table | Know where every number comes from |
+| **MCP** integrations to explore sources with AI | Ground architecture decisions in real data |
+
+**Expected outcome:** a single foundation for BI and analytics, where the origin of every number is traceable.
 
 ---
 
